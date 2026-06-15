@@ -470,3 +470,19 @@ left:0 !important;
 }
 
 }
+
+.timeline-subtitle{
+    text-align:center;
+    color:#ffd6e8;
+    margin-bottom:60px;
+    font-size:1.1rem;
+}
+
+.timeline-content{
+    transition:.4s;
+}
+
+.timeline-content:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 35px rgba(255,105,180,.5);
+}
