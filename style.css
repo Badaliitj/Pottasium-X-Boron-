@@ -473,3 +473,78 @@ line-height:1.9;
 }
 
 }
+
+/* PROMISE PAGE */
+
+.promise-section{
+
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+padding:120px 20px;
+}
+
+.promise-card{
+
+max-width:850px;
+width:100%;
+
+padding:50px;
+
+text-align:center;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(15px);
+
+border-radius:30px;
+
+border:1px solid rgba(255,255,255,.15);
+
+box-shadow:
+0 0 40px rgba(255,105,180,.18);
+}
+
+.promise-card h1{
+
+font-size:3rem;
+
+margin-bottom:30px;
+
+color:#ffb6d9;
+
+text-shadow:
+0 0 20px rgba(255,105,180,.5);
+}
+
+.promise-text{
+
+font-size:1.3rem;
+
+line-height:2.2;
+
+color:white;
+}
+
+@media(max-width:768px){
+
+.promise-card{
+
+padding:30px 20px;
+}
+
+.promise-card h1{
+
+font-size:2rem;
+}
+
+.promise-text{
+
+font-size:1.05rem;
+line-height:2;
+}
+
+}
