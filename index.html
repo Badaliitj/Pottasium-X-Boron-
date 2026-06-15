@@ -2,16 +2,45 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport"
-content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Kajuuu ❤️ Badam</title>
 
-<link rel="stylesheet"
-href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+<!-- PASSWORD SCREEN -->
+
+<div id="password-screen">
+
+    <div class="password-box">
+
+        <h1>❤️ Welcome Kajuuu ❤️</h1>
+
+        <p>
+            This little world was made only for you 🫶🏻
+        </p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Enter Password">
+
+        <button onclick="checkPassword()">
+            Enter ❤️
+        </button>
+
+        <p id="error-message"></p>
+
+    </div>
+
+</div>
+
+<!-- WEBSITE CONTENT -->
+
+<div id="website-content" style="display:none;">
 
 <nav>
 
@@ -56,8 +85,7 @@ Badam💗
 
 </p>
 
-<a class="btn"
-href="journey.html">
+<a class="btn" href="journey.html">
 
 ❤️ Begin Our Journey
 
@@ -66,6 +94,41 @@ href="journey.html">
 </div>
 
 </section>
+
+<footer>
+Made with ❤️, sleepless nights 😭, and countless bugs 🫠 by Badam for Kajuuu
+</footer>
+
+</div>
+
+<script>
+
+function checkPassword(){
+
+    const password =
+    document.getElementById("passwordInput").value;
+
+    if(password === "BadalKashuu#103"){
+
+        document.getElementById("password-screen")
+        .style.display = "none";
+
+        document.getElementById("website-content")
+        .style.display = "block";
+
+    }
+
+    else{
+
+        document.getElementById("error-message")
+        .innerHTML =
+        "Wrong password 😭❤️";
+
+    }
+
+}
+
+</script>
 
 <script src="script.js"></script>
 
