@@ -548,3 +548,71 @@ line-height:2;
 }
 
 }
+
+/* FINAL MAGIC */
+
+.final-moment{
+margin-top:50px;
+text-align:center;
+}
+
+.forever-btn{
+
+padding:16px 35px;
+
+border:none;
+
+border-radius:50px;
+
+background:#ff5f9e;
+
+color:white;
+
+font-size:1.1rem;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.4s;
+
+box-shadow:
+0 0 20px rgba(255,105,180,.4);
+}
+
+.forever-btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:
+0 0 35px rgba(255,105,180,.8);
+}
+
+.hidden-promise{
+
+display:none;
+
+margin-top:30px;
+
+font-size:1.5rem;
+
+color:#ffd1e6;
+
+font-weight:600;
+
+animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+transform:translateY(15px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
