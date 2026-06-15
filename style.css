@@ -488,9 +488,12 @@ left:0 !important;
 }
 
 .timeline-ending{
+    display:block;
+    clear:both;
+    width:100%;
     text-align:center;
-    margin-top:60px;
-    font-size:1.5rem;
+    margin-top:80px;
+    font-size:1.8rem;
     color:#ffb6d9;
-    font-weight:bold;
+    font-weight:600;
 }
