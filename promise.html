@@ -71,7 +71,13 @@ Will you continue making memories with me forever? ❤️🫶🏻
   
 <script>
 function showPromise() {
-document.getElementById("foreverText").style.display = "block";
+const text = document.getElementById("foreverText");
+
+if(text.style.display === "block"){
+return;
+}
+
+text.style.display = "block";
 }
 </script>
   
