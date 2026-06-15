@@ -616,3 +616,105 @@ transform:translateY(0);
 }
 
 }
+
+/* PASSWORD SCREEN */
+
+#password-screen{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+display:flex;
+
+justify-content:center;
+align-items:center;
+
+background:
+linear-gradient(
+rgba(0,0,0,.85),
+rgba(20,0,30,.90)
+),
+url("assets/midnight-romance.png");
+
+background-size:cover;
+background-position:center;
+
+z-index:99999;
+}
+
+.password-box{
+
+width:90%;
+max-width:450px;
+
+padding:40px;
+
+text-align:center;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(15px);
+
+border-radius:30px;
+
+border:1px solid rgba(255,255,255,.15);
+
+box-shadow:
+0 0 40px rgba(255,105,180,.20);
+}
+
+.password-box h1{
+
+margin-bottom:15px;
+
+color:#ffb6d9;
+}
+
+.password-box p{
+
+margin-bottom:20px;
+}
+
+.password-box input{
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:15px;
+
+margin-bottom:15px;
+
+font-size:1rem;
+}
+
+.password-box button{
+
+padding:15px 30px;
+
+border:none;
+
+border-radius:30px;
+
+background:#ff5f9e;
+
+color:white;
+
+font-weight:600;
+
+cursor:pointer;
+}
+
+#error-message{
+
+margin-top:15px;
+
+color:#ff9ec4;
+}
