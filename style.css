@@ -431,3 +431,45 @@ box-shadow:
 border-color:
 rgba(255,182,193,.5);
 }
+
+/* LOVE LETTER */
+
+.love-letter{
+
+max-width:950px;
+
+margin:auto;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(15px);
+
+padding:40px;
+
+border-radius:30px;
+
+line-height:2.1;
+
+font-size:1.15rem;
+
+box-shadow:
+0 0 35px rgba(255,105,180,.18);
+
+border:
+1px solid rgba(255,255,255,.12);
+
+}
+
+@media(max-width:768px){
+
+.love-letter{
+
+padding:25px;
+
+font-size:1rem;
+
+line-height:1.9;
+
+}
+
+}
