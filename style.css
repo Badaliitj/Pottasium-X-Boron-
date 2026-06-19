@@ -718,3 +718,14 @@ margin-top:15px;
 
 color:#ff9ec4;
 }
+
+#letter-password-screen{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+align-items:center;
+
+}
